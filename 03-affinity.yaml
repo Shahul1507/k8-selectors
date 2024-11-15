@@ -6,7 +6,7 @@ spec:
   affinity:
     nodeAffinity:
       preferredDuringSchedulingIgnoredDuringExecution:
-      - weight: 1 # node selectiom
+      - weight: 3 # node selectiom
         preference:
           matchExpressions:
           - key: another-node-label-key
